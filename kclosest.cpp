@@ -38,8 +38,7 @@ void getelements(vector<int> arr,int k,int index,int x,int n)
     {
         cout<<arr[next++]<<" ";
         cnt++;
-    }
-    
+    } 
 }
 int main()
 {
