@@ -22,3 +22,4 @@ int main(int argc, char **argv)
     cout<<cnt[1]<<" ";    
     return 0;
 }
+//uncomment to use vector instead of bruteforce
