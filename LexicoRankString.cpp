@@ -14,14 +14,14 @@ void permute1(string str,string out,string ser)
 		permute1(str.substr(1), out+str[0],ser);
 		rotate(str.begin(),str.begin()+1,str.end());
 	}
-	for(p=m.begin();p!=m.end();p++)
-		if(m.find(ser)!=m.end())
-			cout<<p->second<<endl;
+	p=m.find(ser);
+	if(p!=m.end())
+		cout<<p->second<<endl;
 }
 int main() {
 	string str="ABC";
-  string s;
-  cin>>s;
+  	string s;
+  	cin>>s;
 	permute1(str,"",s);
 	return 0;
 }
