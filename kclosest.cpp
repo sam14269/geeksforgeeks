@@ -55,6 +55,6 @@ cin>>x;
 cout<<"K=";
 cin>>k;
 int index=binary(arr,0,n-1,x);
-getelements(arr,k,index,x,n);
+getelements(arr,k,index,x,n); 
 return 0;
 }
